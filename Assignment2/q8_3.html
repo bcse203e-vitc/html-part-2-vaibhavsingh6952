@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <!-- Header with Site Logo and Nav Links -->
+    <header>
+        <img src="https://static.vecteezy.com/system/resources/previews/006/414/204/large_2x/internet-web-icon-in-trendy-flat-style-isolated-on-white-background-website-symbol-for-your-website-design-logo-app-ui-illustration-free-vector.jpg" alt="Site Logo" width="100">
+        <nav>
+            <ul>
+                <li><a href="q3_1.html">Home</a></li>
+                <li><a href="q3_2.html">About</a></li>
+                <li><a href="q3_3.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h1>Contact Us</h1>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <aside class="location-info">
+            <h2>Our Location</h2>
+            <p>We are located at:</p>
+            <address>
+                123 Main Street, Tech City, 56789
+            </address>
+            <h3>Find Us Here:</h3>
+            <img src="https://gisgeography.com/wp-content/uploads/2020/06/Seattle-Map-Feature.jpg" alt="Map to Our Location" width="400">
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Our Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
